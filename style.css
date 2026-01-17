@@ -1,0 +1,399 @@
+/* =========================
+   Root Variables
+========================= */
+:root {
+    --primary: #00bfff;
+    --secondary: #38bdf8;
+    --bg-dark: #0a0a0a;
+    --card-bg: rgba(26, 26, 46, 0.75);
+    --text-main: #e2e8f0;
+    --text-dim: #94a3b8;
+    --border-soft: rgba(255, 255, 255, 0.08);
+}
+
+/* =========================
+   Global Styles
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--bg-dark);
+    color: var(--text-main);
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+.max-width {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+/* =========================
+   Navbar
+========================= */
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 1.5rem 0;
+    z-index: 999;
+    transition: 0.3s ease;
+}
+
+.navbar.scrolled {
+    background: rgba(10, 10, 10, 0.95);
+    padding: 1rem 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.navbar .max-width {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo span {
+    color: var(--primary);
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.menu a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: var(--primary);
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* =========================
+   Hero Section
+========================= */
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background:
+        linear-gradient(rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 0.8)),
+        url("https://images.unsplash.com/photo-1550745165-9bc0b252726f")
+        center / cover;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid var(--primary);
+    box-shadow: 0 0 40px rgba(0, 191, 255, 0.45);
+    margin-bottom: 2rem;
+}
+
+.home h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.name {
+    color: var(--primary);
+}
+
+.home h3 {
+    color: var(--text-dim);
+    font-weight: 400;
+}
+
+/* Buttons */
+.hero-buttons {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.btn {
+    padding: 0.9rem 2.2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: #000;
+}
+
+.btn-secondary {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.btn:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 191, 255, 0.3);
+}
+
+/* =========================
+   Common Section Styles
+========================= */
+section {
+    padding: 100px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background: var(--primary);
+    position: absolute;
+    left: 50%;
+    bottom: -12px;
+    transform: translateX(-50%);
+}
+
+.section-subtitle {
+    text-align: center;
+    max-width: 700px;
+    margin: -2rem auto 4rem;
+    color: var(--text-dim);
+}
+
+/* =========================
+   About Section
+========================= */
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-img {
+    width: 100%;
+    border-radius: 22px;
+    filter: grayscale(60%);
+    transition: 0.5s;
+}
+
+.about-img:hover {
+    filter: grayscale(0%);
+}
+
+.about-text p {
+    margin-bottom: 1.2rem;
+}
+
+.interests ul {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.interests li {
+    margin-bottom: 0.6rem;
+    color: var(--secondary);
+}
+
+.interests i {
+    margin-right: 10px;
+    width: 20px;
+}
+
+/* =========================
+   Skills Section
+========================= */
+.skills-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.skill-card {
+    background: var(--card-bg);
+    padding: 1.6rem;
+    border-radius: 16px;
+    margin-bottom: 1.6rem;
+    border: 1px solid var(--border-soft);
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bar {
+    height: 10px;
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+}
+
+/* =========================
+   Projects Section
+========================= */
+.project-category {
+    margin: 4rem 0 2rem;
+    color: var(--secondary);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid var(--border-soft);
+    transition: 0.4s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--primary);
+    box-shadow: 0 20px 40px rgba(0, 191, 255, 0.15);
+}
+
+.project-tag {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    padding: 4px 12px;
+    border-radius: 6px;
+    background: rgba(0, 191, 255, 0.2);
+    color: var(--primary);
+}
+
+/* =========================
+   Certifications
+========================= */
+.cert-grid {
+    display: grid;
+    gap: 1rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+.cert-item {
+    background: #161b22;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary);
+}
+
+/* =========================
+   Contact Section
+========================= */
+.contact-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    padding: 25px;
+    border-radius: 14px;
+    min-width: 180px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--secondary);
+    transition: 0.3s;
+}
+
+.contact-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--secondary);
+}
+
+/* =========================
+   Footer
+========================= */
+footer {
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid #222;
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 768px) {
+    .menu {
+        position: fixed;
+        inset: 0;
+        background: var(--bg-dark);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-100%);
+        transition: 0.4s;
+    }
+
+    .menu.active {
+        transform: translateX(0);
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    .home h1 {
+        font-size: 2.4rem;
+    }
+}
