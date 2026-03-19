@@ -1,198 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vaibhav Badade | Computer Engineering Portfolio</title>
-
-    <!-- SEO -->
-    <meta name="description" content="Vaibhav Badade – Computer Engineering student, aspiring game developer skilled in Python, Godot, Ren’Py, UI/UX, and web development.">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaibhav Badade — Portfolio</title>
+  <meta name="description" content="Vaibhav Badade — Computer Engineering student & game developer based in Mumbai." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- ================= NAVBAR ================= -->
-<nav class="navbar">
-    <div class="max-width">
-        <a href="#home" class="logo">VB<span>.</span></a>
-        <ul class="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+  <!-- ░░ PRELOADER ░░ -->
+  <div id="preloader" class="preloader">
+    <div class="pre-name">
+      <span class="pre-v">V</span><span class="pre-b">B</span>
     </div>
-</nav>
+    <div class="pre-line"></div>
+  </div>
 
-<!-- ================= HERO ================= -->
-<header class="home" id="home">
-    <div class="max-width">
-        <img src="me.png" alt="Vaibhav Badade" class="profile-img">
-        <h1>Hi, I'm <span class="name">Vaibhav Badade</span></h1>
-        <h3>Computer Engineering Student | Aspiring Game Developer</h3>
+  <!-- ░░ CURSOR ░░ -->
+  <div id="cur" class="cur"></div>
+  <div id="cur2" class="cur2"></div>
 
-        <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">View Projects</a>
-            <a href="#contact" class="btn btn-secondary">Contact Me</a>
-        </div>
+  <!-- ░░ NAV ░░ -->
+  <nav id="nav" class="nav">
+    <a href="#hero" class="nav-logo">
+      <span class="nl-circle">VB</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="mailto:vaibhavbb83@gmail.com" class="nav-cta">Hire Me</a>
+    <button class="nav-burger" id="burger" aria-label="menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ░░ MOBILE OVERLAY ░░ -->
+  <div class="mob-menu" id="mobMenu">
+    <a href="#about" class="mm-link">About</a>
+    <a href="#skills" class="mm-link">Skills</a>
+    <a href="#work" class="mm-link">Projects</a>
+    <a href="#contact" class="mm-link">Contact</a>
+  </div>
+
+  <!-- ░░ HERO ░░ -->
+  <section id="hero" class="hero">
+    <div class="hero-bg-text" aria-hidden="true">GAME<br>DEV</div>
+
+    <div class="hero-left">
+      <p class="hero-tag reveal-up">— Mumbai, India · 2025</p>
+      <h1 class="hero-name reveal-up" style="--d:.1s">
+        <em>Vaibhav</em><br>Badade
+      </h1>
+      <p class="hero-role reveal-up" style="--d:.2s">
+        Computer Engineering Student<br>
+        <span class="gold">Aspiring Game Developer</span>
+      </p>
+      <div class="hero-actions reveal-up" style="--d:.3s">
+        <a href="#work" class="btn-solid">View Projects</a>
+        <a href="#about" class="btn-line">About Me ↓</a>
+      </div>
     </div>
-</header>
 
-<!-- ================= ABOUT ================= -->
-<section class="about" id="about">
-    <div class="max-width">
-        <h2 class="title">About Me</h2>
-
-        <div class="about-content">
-            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f" alt="Developer" class="about-img">
-
-            <div class="about-text">
-                <h3>Diploma Student in Computer Engineering</h3>
-
-                <p>
-                    I am pursuing a <b>Diploma in Computer Engineering</b> at
-                    <b>Vidyalankar Polytechnic, Mumbai</b>, with an expected graduation in
-                    <b>2027</b>. I have a strong foundation in programming and software
-                    development and enjoy building practical, real-world applications.
-                </p>
-
-                <p>
-                    I have hands-on experience with <b>C, C++, Java, Python, DBMS</b>, and
-                    <b>Data Communication & Networking</b>, along with
-                    <b>HTML, CSS</b>, <b>UI/UX design using Figma</b>, and
-                    <b>Linux</b>.
-                </p>
-
-                <p>
-                    I am deeply passionate about <b>game development and interactive storytelling</b>.
-                    I have created pixel art characters, visual novels with mini-games,
-                    and basic RPG systems using <b>Ren’Py</b> and <b>Pygame</b>.
-                </p>
-
-                <p>
-                    Currently, I am exploring the <b>Godot Engine</b> for
-                    <b>2D & 3D game development</b>, learning environment design,
-                    level creation, GDScript, basic C#, and gameplay mechanics.
-                </p>
-
-                <p>
-                    Alongside programming, I enjoy <b>animation, video editing, and digital drawing</b>,
-                    and actively explore <b>AI tools</b>, <b>Prompt Engineering</b>,
-                    and emerging technologies.
-                </p>
-            </div>
+    <div class="hero-right reveal-up" style="--d:.15s">
+      <div class="hero-img-wrap">
+        <img src="me.png" alt="Vaibhav Badade" class="hero-photo" />
+        <div class="hero-img-border"></div>
+        <div class="hero-img-tag">
+          <span class="dot-green"></span> Available for work
         </div>
-
-        <div class="interests">
-            <ul>
-                <li><i class="fas fa-gamepad"></i> Game Development (Godot, Pygame, Ren’Py)</li>
-                <li><i class="fas fa-cube"></i> 2D & 3D Level Design</li>
-                <li><i class="fas fa-code"></i> Programming (C, C++, Java, Python)</li>
-                <li><i class="fas fa-pencil-ruler"></i> UI/UX Design (Figma)</li>
-                <li><i class="fas fa-brain"></i> AI & Prompt Engineering</li>
-                <li><i class="fas fa-video"></i> Animation & Video Editing</li>
-                <li><i class="fab fa-linux"></i> Linux & Dev Tools</li>
-            </ul>
-        </div>
+      </div>
     </div>
-</section>
 
-<!-- ================= SKILLS ================= -->
-<section class="skills" id="skills">
-    <div class="max-width">
-        <h2 class="title">Technical Skills</h2>
-
-        <div class="skills-content">
-            <div class="skill-card">
-                <div class="skill-info"><span>Python & Game Development</span><span>85%</span></div>
-                <div class="bar"><div class="fill" style="width:85%"></div></div>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-info"><span>Godot Engine (2D & 3D)</span><span>80%</span></div>
-                <div class="bar"><div class="fill" style="width:80%"></div></div>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-info"><span>C / C++ Programming</span><span>80%</span></div>
-                <div class="bar"><div class="fill" style="width:80%"></div></div>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-info"><span>Java Programming</span><span>75%</span></div>
-                <div class="bar"><div class="fill" style="width:75%"></div></div>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-info"><span>HTML & CSS</span><span>70%</span></div>
-                <div class="bar"><div class="fill" style="width:70%"></div></div>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-info"><span>DBMS & SQL</span><span>75%</span></div>
-                <div class="bar"><div class="fill" style="width:75%"></div></div>
-            </div>
-        </div>
+    <div class="hero-scroll-hint">
+      <div class="hs-line"></div>
+      <span>scroll</span>
     </div>
-</section>
+  </section>
 
-<!-- ================= CERTIFICATIONS ================= -->
-<section class="certifications" id="certifications">
-    <div class="max-width">
-        <h2 class="title">Certifications</h2>
-
-        <div class="cert-grid">
-            <div class="cert-item"><i class="fas fa-code"></i> C Programming</div>
-            <div class="cert-item"><i class="fab fa-python"></i> Python Programming</div>
-            <div class="cert-item"><i class="fab fa-java"></i> Java Programming</div>
-            <div class="cert-item"><i class="fas fa-pencil-ruler"></i> UI/UX Design (Figma)</div>
-            <div class="cert-item"><i class="fas fa-gamepad"></i> Godot Game Development</div>
-            <div class="cert-item"><i class="fas fa-brain"></i> Generative AI & Prompt Engineering</div>
-        </div>
+  <!-- ░░ MARQUEE ░░ -->
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Godot &nbsp;·&nbsp; Python &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Ren'Py &nbsp;·&nbsp; Pygame &nbsp;·&nbsp; Figma &nbsp;·&nbsp; Java &nbsp;·&nbsp; GDScript &nbsp;·&nbsp; Linux &nbsp;·&nbsp; SQL &nbsp;·&nbsp; UI/UX &nbsp;·&nbsp; Pixel Art &nbsp;·&nbsp;</span>
+      <span>Godot &nbsp;·&nbsp; Python &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Ren'Py &nbsp;·&nbsp; Pygame &nbsp;·&nbsp; Figma &nbsp;·&nbsp; Java &nbsp;·&nbsp; GDScript &nbsp;·&nbsp; Linux &nbsp;·&nbsp; SQL &nbsp;·&nbsp; UI/UX &nbsp;·&nbsp; Pixel Art &nbsp;·&nbsp;</span>
     </div>
-</section>
+  </div>
 
-<!-- ================= CONTACT ================= -->
-<section class="contact" id="contact">
-    <div class="max-width">
-        <h2 class="title">Contact Me</h2>
+  <!-- ░░ ABOUT ░░ -->
+  <section id="about" class="about section">
+    <div class="container">
 
-        <div class="contact-grid">
-            <div class="contact-card">📧 vaibhavbb83@gmail.com</div>
+      <div class="about-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title reveal-up">About Me</h2>
+      </div>
 
-            <a href="https://github.com/Vaibhavbde" target="_blank" class="contact-card">
-                <i class="fab fa-github"></i> GitHub
+      <div class="about-body">
+        <div class="about-text reveal-up">
+          <p class="about-lead">
+            I'm a <strong>Diploma Computer Engineering</strong> student at
+            <strong>Vidyalankar Polytechnic, Mumbai</strong> (graduating 2027),
+            building things at the crossroads of <em>code and creativity</em>.
+          </p>
+          <p>
+            My obsession is <strong>game development</strong> — I've shipped pixel-art characters,
+            visual novels with branching narratives, and RPG systems using Godot, Ren'Py, and Pygame.
+            Right now I'm deep into <strong>Godot 2D/3D</strong>, learning GDScript, basic C#,
+            level design, and gameplay mechanics.
+          </p>
+          <p>
+            Beyond games, I love <strong>UI/UX design</strong> in Figma,
+            <strong>animation & video editing</strong>, and staying ahead of
+            emerging <strong>AI tools and prompt engineering</strong>.
+          </p>
+          <div class="about-facts">
+            <div class="fact">
+              <span class="fact-num">7+</span>
+              <span class="fact-lbl">Projects Built</span>
+            </div>
+            <div class="fact">
+              <span class="fact-num">6</span>
+              <span class="fact-lbl">Certifications</span>
+            </div>
+            <div class="fact">
+              <span class="fact-num">3</span>
+              <span class="fact-lbl">Game Engines</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-interests reveal-up" style="--d:.15s">
+          <h3 class="interest-head">Interests</h3>
+          <ul class="interest-list">
+            <li><i class="fas fa-gamepad"></i>Game Development (Godot, Pygame, Ren'Py)</li>
+            <li><i class="fas fa-cube"></i>2D &amp; 3D Level Design</li>
+            <li><i class="fas fa-code"></i>Programming (C, C++, Java, Python)</li>
+            <li><i class="fas fa-pencil-ruler"></i>UI/UX Design — Figma</li>
+            <li><i class="fas fa-brain"></i>AI &amp; Prompt Engineering</li>
+            <li><i class="fas fa-video"></i>Animation &amp; Video Editing</li>
+            <li><i class="fab fa-linux"></i>Linux &amp; Dev Tools</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ░░ SKILLS ░░ -->
+  <section id="skills" class="skills section">
+    <div class="container">
+
+      <div class="about-header">
+        <span class="section-num">02</span>
+        <h2 class="section-title reveal-up">Skills</h2>
+      </div>
+
+      <div class="skills-layout">
+
+        <div class="skill-bars reveal-up">
+          <div class="sb" data-w="85">
+            <div class="sb-top"><span>Python &amp; Game Dev</span><span class="sb-pct">85%</span></div>
+            <div class="sb-track"><div class="sb-fill"></div></div>
+          </div>
+          <div class="sb" data-w="80">
+            <div class="sb-top"><span>Godot Engine</span><span class="sb-pct">80%</span></div>
+            <div class="sb-track"><div class="sb-fill"></div></div>
+          </div>
+          <div class="sb" data-w="80">
+            <div class="sb-top"><span>C / C++</span><span class="sb-pct">80%</span></div>
+            <div class="sb-track"><div class="sb-fill"></div></div>
+          </div>
+          <div class="sb" data-w="75">
+            <div class="sb-top"><span>DBMS / SQL</span><span class="sb-pct">75%</span></div>
+            <div class="sb-track"><div class="sb-fill"></div></div>
+          </div>
+          <div class="sb" data-w="75">
+            <div class="sb-top"><span>Java</span><span class="sb-pct">75%</span></div>
+            <div class="sb-track"><div class="sb-fill"></div></div>
+          </div>
+          <div class="sb" data-w="70">
+            <div class="sb-top"><span>HTML / CSS</span><span class="sb-pct">70%</span></div>
+            <div class="sb-track"><div class="sb-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-tags reveal-up" style="--d:.1s">
+          <div class="tag-group">
+            <span class="tg-label">Game Dev</span>
+            <div class="tags">
+              <span>Godot</span><span>GDScript</span><span>Ren'Py</span>
+              <span>Pygame</span><span>Pixel Art</span><span>C#</span>
+            </div>
+          </div>
+          <div class="tag-group">
+            <span class="tg-label">Programming</span>
+            <div class="tags">
+              <span>Python</span><span>C</span><span>C++</span>
+              <span>Java</span><span>SQL</span>
+            </div>
+          </div>
+          <div class="tag-group">
+            <span class="tg-label">Tools &amp; Design</span>
+            <div class="tags">
+              <span>Figma</span><span>Linux</span><span>Git</span>
+              <span>HTML/CSS</span><span>AI Tools</span><span>Prompt Eng.</span>
+            </div>
+          </div>
+
+          <div class="certs-block">
+            <span class="tg-label">Certifications</span>
+            <div class="cert-rows">
+              <div class="cert-row"><i class="fas fa-certificate"></i> C Programming</div>
+              <div class="cert-row"><i class="fab fa-python"></i> Python Programming</div>
+              <div class="cert-row"><i class="fab fa-java"></i> Java Programming</div>
+              <div class="cert-row"><i class="fas fa-pencil-ruler"></i> UI/UX Design (Figma)</div>
+              <div class="cert-row"><i class="fas fa-gamepad"></i> Godot Game Development</div>
+              <div class="cert-row"><i class="fas fa-brain"></i> Generative AI &amp; Prompt Eng.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ PROJECTS ░░ -->
+  <section id="work" class="work section">
+    <div class="container">
+
+      <div class="about-header work-header">
+        <span class="section-num">03</span>
+        <h2 class="section-title reveal-up">Projects</h2>
+        <a href="https://www.linkedin.com/in/vaibhav-badade-874661251/" target="_blank" class="li-link reveal-up">
+          <i class="fab fa-linkedin"></i> LinkedIn Profile
+        </a>
+      </div>
+
+      <!-- filter -->
+      <div class="work-filters reveal-up">
+        <button class="wf active" data-f="all">All</button>
+        <button class="wf" data-f="godot">Godot</button>
+        <button class="wf" data-f="python">Python</button>
+        <button class="wf" data-f="web">Web</button>
+      </div>
+
+      <div class="work-grid">
+
+        <article class="card reveal-up" data-cat="godot">
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-cat">Godot</span>
+              <a href="https://github.com/Vaibhavbde" target="_blank" class="card-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <span class="card-num">001</span>
+            <h3>2D Action Game</h3>
+            <p>Fast-paced 2D platformer with custom sprites, collision physics, and enemy AI behavior trees built from scratch.</p>
+            <div class="card-footer">
+              <span>Godot</span><span>GDScript</span><span>2D</span>
+            </div>
+          </div>
+          <div class="card-line"></div>
+        </article>
+
+        <article class="card reveal-up" data-cat="godot" style="--d:.06s">
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-cat">Godot</span>
+              <a href="https://github.com/Vaibhavbde" target="_blank" class="card-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <span class="card-num">002</span>
+            <h3>RPG Concept</h3>
+            <p>Exploration RPG prototype — inventory system, dialogue trees, stat management, and procedural dungeon layouts.</p>
+            <div class="card-footer">
+              <span>Godot</span><span>C#</span><span>GDScript</span>
+            </div>
+          </div>
+          <div class="card-line"></div>
+        </article>
+
+        <article class="card reveal-up" data-cat="godot" style="--d:.12s">
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-cat">Godot</span>
+              <a href="https://github.com/Vaibhavbde" target="_blank" class="card-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <span class="card-num">003</span>
+            <h3>Space Shooter</h3>
+            <p>Vertical space shooter with procedural enemy waves, power-up drops, and a high-score leaderboard system.</p>
+            <div class="card-footer">
+              <span>Godot</span><span>GDScript</span><span>Shaders</span>
+            </div>
+          </div>
+          <div class="card-line"></div>
+        </article>
+
+        <article class="card reveal-up" data-cat="python" style="--d:.04s">
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-cat cat-py">Python</span>
+              <a href="https://github.com/Vaibhavbde" target="_blank" class="card-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <span class="card-num">004</span>
+            <h3>Classic Game Suite</h3>
+            <p>Five arcade classics — Snake, Pong, Tetris, Flappy Bird, and a Racing Game — all built from scratch in Pygame.</p>
+            <div class="card-footer">
+              <span>Python</span><span>Pygame</span>
+            </div>
+          </div>
+          <div class="card-line card-line-py"></div>
+        </article>
+
+        <article class="card reveal-up" data-cat="python" style="--d:.1s">
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-cat cat-py">Python</span>
+              <a href="https://github.com/Vaibhavbde" target="_blank" class="card-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <span class="card-num">005</span>
+            <h3>Visual Novel</h3>
+            <p>Story-driven visual novel with branching narrative paths, custom pixel art characters, and embedded mini-games.</p>
+            <div class="card-footer">
+              <span>Ren'Py</span><span>Python</span><span>Pixel Art</span>
+            </div>
+          </div>
+          <div class="card-line card-line-py"></div>
+        </article>
+
+        <article class="card reveal-up" data-cat="python" style="--d:.16s">
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-cat cat-py">Python</span>
+              <a href="https://github.com/Vaibhavbde" target="_blank" class="card-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <span class="card-num">006</span>
+            <h3>Mini Game Pack</h3>
+            <p>Deck Builder card game, Chrome Dino clone, and a particle system demo — fun experimental projects.</p>
+            <div class="card-footer">
+              <span>Python</span><span>Pygame</span>
+            </div>
+          </div>
+          <div class="card-line card-line-py"></div>
+        </article>
+
+        <article class="card reveal-up" data-cat="web" style="--d:.08s">
+          <div class="card-inner">
+            <div class="card-top">
+              <span class="card-cat cat-web">Web</span>
+              <a href="https://github.com/Vaibhavbde" target="_blank" class="card-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <span class="card-num">007</span>
+            <h3>This Portfolio</h3>
+            <p>Custom portfolio with luxury editorial dark aesthetic, scroll animations, and responsive layout — built from scratch.</p>
+            <div class="card-footer">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+          <div class="card-line card-line-web"></div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACT ░░ -->
+  <section id="contact" class="contact section">
+    <div class="container">
+
+      <div class="about-header">
+        <span class="section-num">04</span>
+        <h2 class="section-title reveal-up">Let's Talk</h2>
+      </div>
+
+      <div class="contact-body">
+        <div class="contact-left reveal-up">
+          <p class="contact-lead">
+            Open to <strong>internships</strong>, <strong>collaborations</strong>,
+            and any cool <strong>creative projects</strong>. Drop me a message.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:vaibhavbb83@gmail.com" class="cl">
+              <i class="fas fa-envelope"></i>
+              <div><span>Email</span><strong>vaibhavbb83@gmail.com</strong></div>
             </a>
-
-            <a href="#" target="_blank" class="contact-card">
-                <i class="fab fa-linkedin"></i> LinkedIn
+            <a href="https://github.com/Vaibhavbde" target="_blank" class="cl">
+              <i class="fab fa-github"></i>
+              <div><span>GitHub</span><strong>Vaibhavbde</strong></div>
             </a>
+            <a href="https://www.linkedin.com/in/vaibhav-badade-874661251/" target="_blank" class="cl">
+              <i class="fab fa-linkedin"></i>
+              <div><span>LinkedIn</span><strong>vaibhav-badade</strong></div>
+            </a>
+          </div>
         </div>
+
+        <div class="contact-right reveal-up" style="--d:.12s">
+          <form class="form" onsubmit="handleForm(event)">
+            <div class="form-row">
+              <label>Name
+                <input type="text" placeholder="Your name" required />
+              </label>
+              <label>Email
+                <input type="email" placeholder="your@email.com" required />
+              </label>
+            </div>
+            <label>Message
+              <textarea placeholder="Tell me about your project or idea..." rows="5" required></textarea>
+            </label>
+            <button type="submit" class="btn-solid form-btn">Send Message →</button>
+          </form>
+        </div>
+      </div>
+
     </div>
-</section>
+  </section>
 
-<footer>
-    © <span id="year"></span> Vaibhav Badade
-</footer>
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#hero" class="footer-logo">
+        <span class="nl-circle">VB</span>
+      </a>
+      <p>© <span id="yr"></span> Vaibhav Badade — Mumbai, India</p>
+      <div class="footer-soc">
+        <a href="https://github.com/Vaibhavbde" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/vaibhav-badade-874661251/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:vaibhavbb83@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
 
-<script>
-document.getElementById("year").textContent = new Date().getFullYear();
-
-document.querySelector('.menu-toggle').onclick = () => {
-    document.querySelector('.menu').classList.toggle('active');
-};
-</script>
-
+  <script src="script.js"></script>
 </body>
 </html>
