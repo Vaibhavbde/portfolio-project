@@ -1,48 +1,71 @@
+# 🔹 PORTFOLIO PROJECT – README.md
 
+---
 
-🔹 PORTFOLIO PROJECT – README.md
+## 📌 Portfolio Projects Repository Description
 
-📌 Portfolio Projects Repository
-
-Description
 This repository showcases my collection of projects in game development, programming, and web development. It reflects my learning journey, technical skills, and creative approach to building interactive applications.
 
-🎮 Projects Included
+---
 
-Godot Games (2D action, RPG concepts, space shooters)
+## 🎮 Projects Included
 
-Python & Pygame Games (Snake, Pong, Tetris, Flappy Bird, Racing Game)
+- Sorting Visualizer (Java, Swing — animated algorithm visualizer with neon UI)
+- Crown Clash (Java — turn-based strategy game)
+- File Converter (Python — convert files between different formats)
+- App UI (UI Design — mobile app interface design)
+- Godot Games (2D action, RPG concepts, space shooters)
+- Pygame Games (Snake, Pong, Tetris, Flappy Bird, Racing Game)
+- Mini Games (Deck Builder, Chrome Dino Clone, Particles System)
+- Visual Novels (Ren'Py)
+- University & Practice Projects
+- Web Projects (HTML, CSS portfolio)
 
-Mini Games (Deck Builder, Chrome Dino Clone, Particles System)
+---
 
-Visual Novels (Ren’Py)
+## 🛠 Technologies Used
 
-University & Practice Projects
+**Programming:** Java, Python, JavaScript, C, C++
 
-Web Projects (HTML, CSS portfolio)
+**Game Engines:** Godot, Pygame, Ren'Py
 
-🛠 Technologies Used
+**Web:** HTML, CSS
 
-Programming: Python, C, C++, Java
+**Libraries & Frameworks:** Java Swing, Node.js
 
-Game Engines: Godot, Pygame, Ren’Py
+**Tools:** Git, GitHub, VS Code, Android Studio, Figma, Postman, Linux
 
-Web: HTML, CSS
+**Concepts:** Object Oriented Programming, Data Structures & Algorithms, Computer Networks, Operating Systems, Database Management Systems
 
-Tools: Git, Linux, Figma
+---
 
-🎯 Purpose
+## 📊 Projects
 
-Improve problem-solving and programming skills
+| Project | Tech | Description | Repo |
+|---|---|---|---|
+| Sorting Visualizer | Java, Swing | Animated sorting algorithm visualizer with neon UI, 6 algorithms, live stats | [View](#) |
+| Crown Clash | Java | A turn-based strategy game | [View](#) |
+| File Converter | Python | Convert files between different formats | [View](#) |
+| App UI | UI Design | Mobile app interface design | [View](#) |
 
-Learn game mechanics and engine workflows
+---
 
-Build a strong foundation for a career in software & game development
+## 🎯 Purpose
 
-📌 Future Goals
+- Improve problem-solving and programming skills
+- Learn game mechanics and engine workflows
+- Build a strong foundation for a career in software & game development
 
-Advanced Godot projects
+---
 
-AI integration in games
+## 📌 Future Goals
 
-Polished commercial-quality games
+- Advanced Godot projects
+- AI integration in games
+- Polished commercial-quality games
+
+---
+
+## 📬 Contact
+
+Open to internship opportunities — feel free to reach out!
