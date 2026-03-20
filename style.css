@@ -5,12 +5,12 @@
   --ink:    #080808;
   --ink2:   #111113;
   --ink3:   #1a1a1e;
-  --gold:   #c9a84c;
-  --gold2:  #e8c96a;
+  --gold:   #4f8ef7;
+  --gold2:  #7eb3ff;
   --dim:    #f7f3ee;
   --muted:  #6b6b72;
   --border: rgba(255,255,255,0.07);
-  --border2:rgba(201,168,76,0.2);
+  --border2:rgba(79,142,247,0.2);
 
   --ff-disp: 'Cormorant Garamond', Georgia, serif;
   --ff-body: 'DM Sans', sans-serif;
@@ -54,7 +54,7 @@ ul { list-style: none; }
 .cur2 {
   position: fixed; z-index: 9998;
   width: 38px; height: 38px;
-  border: 1.5px solid rgba(201,168,76,0.5);
+  border: 1.5px solid rgba(79,142,247,0.5);
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%,-50%);
@@ -116,7 +116,7 @@ ul { list-style: none; }
   display: flex; align-items: center; justify-content: center;
   width: 44px; height: 44px; border-radius: 50%;
   border: 1.5px solid var(--gold);
-  background: rgba(201,168,76,.06);
+  background: rgba(79,142,247,.06);
   font-family: var(--ff-disp);
   font-size: 1.1rem; font-weight: 600;
   color: var(--gold);
@@ -124,8 +124,8 @@ ul { list-style: none; }
   transition: background .3s, box-shadow .3s;
 }
 .nl-circle:hover {
-  background: rgba(201,168,76,.15);
-  box-shadow: 0 0 24px rgba(201,168,76,.3);
+  background: rgba(79,142,247,.15);
+  box-shadow: 0 0 24px rgba(79,142,247,.3);
 }
 
 .nav-links { display: flex; gap: 2.5rem; }
@@ -150,7 +150,7 @@ ul { list-style: none; }
   color: var(--gold);
   transition: background .3s, border-color .3s;
 }
-.nav-cta:hover { background: rgba(201,168,76,.1); border-color: var(--gold); }
+.nav-cta:hover { background: rgba(79,142,247,.1); border-color: var(--gold); }
 
 .nav-burger { display: none; flex-direction: column; gap: 5px; padding: 4px; }
 .nav-burger span { display: block; width: 22px; height: 1px; background: var(--dim); transition: .3s; }
@@ -268,7 +268,7 @@ ul { list-style: none; }
 .btn-solid {
   display: inline-block;
   background: var(--gold);
-  color: #000;
+  color: #fff;
   padding: .85rem 2.2rem;
   font-size: .85rem; font-weight: 500;
   letter-spacing: .08em; text-transform: uppercase;
@@ -278,7 +278,7 @@ ul { list-style: none; }
 .btn-solid:hover {
   background: var(--gold2);
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(201,168,76,.3);
+  box-shadow: 0 10px 30px rgba(79,142,247,.3);
 }
 .btn-line {
   display: inline-block;
@@ -486,7 +486,7 @@ ul { list-style: none; }
   transition: background .3s;
   flex-shrink: 0;
 }
-.li-link:hover { background: rgba(201,168,76,.1); }
+.li-link:hover { background: rgba(79,142,247,.1); }
 
 .work-filters {
   display: flex; gap: .6rem; flex-wrap: wrap;
@@ -502,7 +502,7 @@ ul { list-style: none; }
 }
 .wf.active, .wf:hover {
   border-color: var(--border2);
-  color: var(--gold); background: rgba(201,168,76,.07);
+  color: var(--gold); background: rgba(79,142,247,.07);
 }
 
 .work-grid {
@@ -528,8 +528,8 @@ ul { list-style: none; }
   font-family: var(--ff-mono); font-size: .68rem;
   letter-spacing: .12em; text-transform: uppercase;
   color: var(--gold);
-  background: rgba(201,168,76,.08);
-  border: 1px solid rgba(201,168,76,.2);
+  background: rgba(79,142,247,.08);
+  border: 1px solid rgba(79,142,247,.2);
   padding: .2rem .7rem; border-radius: 2px;
 }
 .cat-py { color: #a78bfa; background: rgba(167,139,250,.08); border-color: rgba(167,139,250,.2); }
@@ -595,7 +595,7 @@ ul { list-style: none; }
   border-radius: 4px;
   transition: border-color .3s, background .3s, transform .3s;
 }
-.cl:hover { border-color: var(--border2); background: rgba(201,168,76,.05); transform: translateX(6px); }
+.cl:hover { border-color: var(--border2); background: rgba(79,142,247,.05); transform: translateX(6px); }
 .cl > i { font-size: 1.1rem; color: var(--gold); flex-shrink: 0; width: 20px; text-align: center; }
 .cl > div { display: flex; flex-direction: column; gap: .1rem; }
 .cl > div span { font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
@@ -619,7 +619,7 @@ ul { list-style: none; }
   outline: none; resize: vertical;
   transition: border-color .3s;
 }
-.form input:focus, .form textarea:focus { border-color: rgba(201,168,76,.5); }
+.form input:focus, .form textarea:focus { border-color: rgba(79,142,247,.5); }
 .form-btn { margin-top: .5rem; }
 
 /* =============================================
