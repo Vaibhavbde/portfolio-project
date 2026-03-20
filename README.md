@@ -1,10 +1,10 @@
-## 📌 Repository Overview
+## Repository Overview
 
-This repository showcases my collection of projects in game development, programming, web development, and AI exploration. It reflects my learning journey, technical skills, and creative approach to building interactive and real-world applications.
+This repository showcases my collection of projects in game development, programming, web development, and AI exploration. It reflects my learning journey, technical skills, and approach to building interactive and real-world applications.
 
 ---
 
-## 🎮 Projects Included
+## Projects Included
 
 - Sorting Visualizer (Java, Swing — animated algorithm visualizer with neon UI)  
 - Crown Clash (Java — turn-based strategy game)  
@@ -14,71 +14,60 @@ This repository showcases my collection of projects in game development, program
 - Pygame Games (Snake, Pong, Tetris, Flappy Bird, Racing Game)  
 - Mini Games (Deck Builder, Chrome Dino Clone, Particle System)  
 - Visual Novels (Ren'Py-based projects)  
-- Academic & Practice Projects  
+- Academic and Practice Projects  
 - Web Projects (HTML, CSS portfolio websites)  
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-### 💻 Programming Languages  
+### Programming Languages  
 C • C++ • Java • Python • JavaScript • TypeScript • Kotlin • C# • Go • Rust • PHP  
 
 ---
 
-### 🌐 Web Development  
+### Web Development  
 HTML5 • CSS3 • React • Next.js • Node.js • NestJS • WebGL • OpenGL • Web3.js  
 
 ---
 
-### 📱 Mobile & Desktop  
+### Mobile and Desktop  
 Android Studio • Java Swing • .NET  
 
 ---
 
-### 🎮 Game Development  
+### Game Development  
 Godot Engine • Unity • Unreal Engine • Pygame • Ren’Py  
 
 ---
 
-### 🧠 AI / Data Science  
+### AI and Data Science  
 NumPy • SciPy • Matplotlib • scikit-learn • PyTorch • Anaconda  
 
 ---
 
-### 🗄️ Databases  
+### Databases  
 MongoDB • MySQL • PostgreSQL • SQLite • Microsoft SQL Server  
 
 ---
 
-### ☁️ Cloud & DevOps  
+### Cloud and DevOps  
 AWS • Azure • Google Cloud • Oracle Cloud • OpenStack • Cloudflare • Vercel  
 Docker • Git • GitHub • GitHub Actions • GitLab  
 
 ---
 
-### 🎨 Design & Creative Tools  
+### Design and Creative Tools  
 Figma • Canva • Blender • GIMP • Krita • Aseprite • Clip Studio Paint  
 
 ---
 
-### 🛠 Tools & Platforms  
+### Tools and Platforms  
 Postman • Power BI • Notion • NPM • Windows Terminal • Raspberry Pi • NVIDIA  
 
 ---
 
-## 📊 Featured Projects
-
-| Project | Tech Stack | Description | Link |
-|--------|-----------|------------|------|
-| Sorting Visualizer | Java, Swing | Animated sorting visualizer with neon UI, multiple algorithms, real-time stats | View |
-| Crown Clash | Java | Turn-based strategy game | View |
-| File Converter | Python | File conversion tool | View |
-| App UI | Figma | Mobile app UI/UX design | View |
-
----
-
-## 🎯 Purpose
+## Purpose
 
 - Strengthen problem-solving and programming skills  
 - Learn game development workflows and system design  
@@ -86,7 +75,7 @@ Postman • Power BI • Notion • NPM • Windows Terminal • Raspberry Pi �
 
 ---
 
-## 🚀 Future Goals
+## Future Goals
 
 - Build advanced projects using Godot Engine  
 - Integrate AI into games and applications  
@@ -95,11 +84,11 @@ Postman • Power BI • Notion • NPM • Windows Terminal • Raspberry Pi �
 
 ---
 
-## 📬 Contact
+## Contact
 
 Open to internships, collaborations, and learning opportunities.  
 Feel free to connect and explore my work.
 
 ---
 
-💡 Building, learning, and creating — one project at a time.
+Building, learning, and creating one project at a time.
