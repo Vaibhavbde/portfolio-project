@@ -1,71 +1,105 @@
-# 🔹 PORTFOLIO PROJECT – README.md
+## 📌 Repository Overview
 
----
-
-## 📌 Portfolio Projects Repository Description
-
-This repository showcases my collection of projects in game development, programming, and web development. It reflects my learning journey, technical skills, and creative approach to building interactive applications.
+This repository showcases my collection of projects in game development, programming, web development, and AI exploration. It reflects my learning journey, technical skills, and creative approach to building interactive and real-world applications.
 
 ---
 
 ## 🎮 Projects Included
 
-- Sorting Visualizer (Java, Swing — animated algorithm visualizer with neon UI)
-- Crown Clash (Java — turn-based strategy game)
-- File Converter (Python — convert files between different formats)
-- App UI (UI Design — mobile app interface design)
-- Godot Games (2D action, RPG concepts, space shooters)
-- Pygame Games (Snake, Pong, Tetris, Flappy Bird, Racing Game)
-- Mini Games (Deck Builder, Chrome Dino Clone, Particles System)
-- Visual Novels (Ren'Py)
-- University & Practice Projects
-- Web Projects (HTML, CSS portfolio)
+- Sorting Visualizer (Java, Swing — animated algorithm visualizer with neon UI)  
+- Crown Clash (Java — turn-based strategy game)  
+- File Converter (Python — file format conversion tool)  
+- App UI (UI/UX Design — mobile application interface)  
+- Godot Games (2D action, RPG concepts, space shooters)  
+- Pygame Games (Snake, Pong, Tetris, Flappy Bird, Racing Game)  
+- Mini Games (Deck Builder, Chrome Dino Clone, Particle System)  
+- Visual Novels (Ren'Py-based projects)  
+- Academic & Practice Projects  
+- Web Projects (HTML, CSS portfolio websites)  
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Tech Stack
 
-**Programming:** Java, Python, JavaScript, C, C++
-
-**Game Engines:** Godot, Pygame, Ren'Py
-
-**Web:** HTML, CSS
-
-**Libraries & Frameworks:** Java Swing, Node.js
-
-**Tools:** Git, GitHub, VS Code, Android Studio, Figma, Postman, Linux
-
-**Concepts:** Object Oriented Programming, Data Structures & Algorithms, Computer Networks, Operating Systems, Database Management Systems
+### 💻 Programming Languages  
+C • C++ • Java • Python • JavaScript • TypeScript • Kotlin • C# • Go • Rust • PHP  
 
 ---
 
-## 📊 Projects
+### 🌐 Web Development  
+HTML5 • CSS3 • React • Next.js • Node.js • NestJS • WebGL • OpenGL • Web3.js  
 
-| Project | Tech | Description | Repo |
-|---|---|---|---|
-| Sorting Visualizer | Java, Swing | Animated sorting algorithm visualizer with neon UI, 6 algorithms, live stats | [View](#) |
-| Crown Clash | Java | A turn-based strategy game | [View](#) |
-| File Converter | Python | Convert files between different formats | [View](#) |
-| App UI | UI Design | Mobile app interface design | [View](#) |
+---
+
+### 📱 Mobile & Desktop  
+Android Studio • Java Swing • .NET  
+
+---
+
+### 🎮 Game Development  
+Godot Engine • Unity • Unreal Engine • Pygame • Ren’Py  
+
+---
+
+### 🧠 AI / Data Science  
+NumPy • SciPy • Matplotlib • scikit-learn • PyTorch • Anaconda  
+
+---
+
+### 🗄️ Databases  
+MongoDB • MySQL • PostgreSQL • SQLite • Microsoft SQL Server  
+
+---
+
+### ☁️ Cloud & DevOps  
+AWS • Azure • Google Cloud • Oracle Cloud • OpenStack • Cloudflare • Vercel  
+Docker • Git • GitHub • GitHub Actions • GitLab  
+
+---
+
+### 🎨 Design & Creative Tools  
+Figma • Canva • Blender • GIMP • Krita • Aseprite • Clip Studio Paint  
+
+---
+
+### 🛠 Tools & Platforms  
+Postman • Power BI • Notion • NPM • Windows Terminal • Raspberry Pi • NVIDIA  
+
+---
+
+## 📊 Featured Projects
+
+| Project | Tech Stack | Description | Link |
+|--------|-----------|------------|------|
+| Sorting Visualizer | Java, Swing | Animated sorting visualizer with neon UI, multiple algorithms, real-time stats | View |
+| Crown Clash | Java | Turn-based strategy game | View |
+| File Converter | Python | File conversion tool | View |
+| App UI | Figma | Mobile app UI/UX design | View |
 
 ---
 
 ## 🎯 Purpose
 
-- Improve problem-solving and programming skills
-- Learn game mechanics and engine workflows
-- Build a strong foundation for a career in software & game development
+- Strengthen problem-solving and programming skills  
+- Learn game development workflows and system design  
+- Build a strong foundation for AI, software, and game development careers  
 
 ---
 
-## 📌 Future Goals
+## 🚀 Future Goals
 
-- Advanced Godot projects
-- AI integration in games
-- Polished commercial-quality games
+- Build advanced projects using Godot Engine  
+- Integrate AI into games and applications  
+- Develop scalable full-stack applications  
+- Create production-level, polished projects  
 
 ---
 
 ## 📬 Contact
 
-Open to internship opportunities — feel free to reach out!
+Open to internships, collaborations, and learning opportunities.  
+Feel free to connect and explore my work.
+
+---
+
+💡 Building, learning, and creating — one project at a time.
