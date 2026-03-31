@@ -1,6 +1,6 @@
 ## Repository Overview
 
-This repository showcases my collection of projects in game development, programming, web development, and AI exploration. It reflects my learning journey, technical skills, and approach to building interactive and real-world applications.
+This repository showcases my collection of projects in game development, programming, web development, and AI exploration. It reflects my learning journey, some fun code for timeless  technical skills, and creative approach to building interactive applications. technical skills, and approach to building interactive and real-world applications.
 
 ---
 
